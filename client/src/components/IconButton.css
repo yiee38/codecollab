@@ -1,0 +1,40 @@
+.icon-button {
+    border: none;
+    background-color: transparent; /* Background color when off */
+
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 2px;
+    border-radius: 0%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+  }
+  
+  .icon-button:active {
+    background-color: #e0e0e0; /* Change the background color on click */
+  }
+
+  .icon-button.off {
+    background-color: transparent; /* Background color when off */
+  }
+  
+  .icon-button.on {
+    background-color: #f0f0f0; /* Background color when on */
+  }
+  
+  
+  .icon {
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+  }
+  
+  .icon-button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Add a custom focus outline */
+  }
+  
